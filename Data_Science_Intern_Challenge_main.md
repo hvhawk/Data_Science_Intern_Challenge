@@ -4,7 +4,7 @@ This repository contains answers of the Shopify Summer 2022 Data Science Intern 
 
 Please complete the following questions, and provide your thought process/work. You can attach your work in a text file, link, etc. on the application page. Please ensure answers are easily visible for reviewers!
 
-Question 1: Given some sample data, write a program to answer the following: [Click Here](https://github.com/sumitr12/Data-Science-Intern-Challenge/blob/main/Data_Science_Intern_Challenge_DataSet.csv) to access the required data set
+Question 1: Given some sample data, write a program to answer the following: [Click Here](https://github.com/hvhawk/Data_Science_Intern_Challenge/blob/6cec77fb02ff62fa01b51815a29d384da3ec8e60/Data_Science_Intern_Challenge_DataSet_q1.csv) to access the required data set
 
 On Shopify, we have exactly 100 sneaker shops, and each of these shops sells only one model of shoe. We want to do some analysis of the average order value (AOV). When we look at orders data over a 30 day window, we naively calculate an AOV of $3145.13. Given that we know these shops are selling sneakers, a relatively affordable item, something seems wrong with our analysis. 
 
@@ -15,7 +15,7 @@ Initially, AOV is $3145.13 which is calculated naively using mean value of Total
 So, After analysing the same, I have cleaned the data and then checked for the Mean Metric. The value become way less than originally obtained. 
 Again, I performed plotting of Distribution of Cleaned Data and I observe that data is skewed towards Lower Values and there is Standard Deviation of Values from Mean Value.
 Thus, I select Median as more suitable Metric for Evaluation of AOV after Cleaning the Data.
-For the Practical Implementation of the Same, [Click Here](https://github.com/sumitr12/Data-Science-Intern-Challenge/blob/main/Data_Science_Intern_Challenge.ipynb) to view it.
+For the Practical Implementation of the Same, [Click Here](https://github.com/hvhawk/Data_Science_Intern_Challenge/blob/6cec77fb02ff62fa01b51815a29d384da3ec8e60/Data_Science_Intern_Challenge_q1.ipynb) to view it.
 
 2. What metric would you report for this dataset?
 
@@ -41,5 +41,5 @@ Answer: Peacock
 
 Answer: Boston Crab Meat
 
-[Click Here](https://github.com/sumitr12/Data-Science-Intern-Challenge/blob/main/Data_Science_Intern.sql) to check the SQL Queries.
+[Click Here](https://github.com/hvhawk/Data_Science_Intern_Challenge/blob/6cec77fb02ff62fa01b51815a29d384da3ec8e60/Data_Science_Intern_q2.sql) to check the SQL Queries.
 
